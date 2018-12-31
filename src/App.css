@@ -8,7 +8,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: linear-gradient(to bottom, #800000 , #80004b);
   min-height: 100px;
   display: flex;
   flex-direction: column;
@@ -16,17 +16,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  text-transform: uppercase; 
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button:active{
+  background-color: #80004b;
 }
