@@ -1,9 +1,16 @@
+.button{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
 .button:active{
     background-color: #80004b !important;
     color: white;
+    text-transform: none;
 }
 
 .button:hover{
     background-color: #80004b;
     color: white;
+    text-transform: none;
 }
