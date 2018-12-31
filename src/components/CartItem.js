@@ -2,9 +2,10 @@ import React from 'react';
 
 class CartItem extends React.Component {
     render () {
-        return <li>
+        return <li className="cart-item">
             <h3> {this.props.item.name} </h3>
-            <p> {this.props.item.quantity} x {this.props.item.price} </p>
+            <p>  x {this.props.item.quantity} </p>
+            
         </li>;
     }
 }
